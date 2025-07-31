@@ -164,12 +164,6 @@ All colors MUST be HSL for proper theming.
   .bg-hero {
     background: var(--gradient-hero);
   }
-
-  /* Animations */
-  .text-outline {
-  -webkit-text-stroke: 0.5px #000; /* garis hitam tipis */
-  text-stroke: 1px #000;         /* untuk browser yang support */
-}
   
   .animate-float {
     animation: float 3s ease-in-out infinite;
